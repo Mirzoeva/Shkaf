@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14E9B3E277D384E00973A89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E9B3D277D384E00973A89 /* Constants.swift */; };
 		A1D91CEA277484D8009F2B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91CE9277484D8009F2B69 /* AppDelegate.swift */; };
 		A1D91CEC277484D8009F2B69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91CEB277484D8009F2B69 /* SceneDelegate.swift */; };
-		A1D91CEE277484D8009F2B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91CED277484D8009F2B69 /* ViewController.swift */; };
+		A1D91CEE277484D8009F2B69 /* CreateLookBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91CED277484D8009F2B69 /* CreateLookBookViewController.swift */; };
 		A1D91CF1277484D8009F2B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D91CEF277484D8009F2B69 /* Main.storyboard */; };
 		A1D91CF3277484DB009F2B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D91CF2277484DB009F2B69 /* Assets.xcassets */; };
 		A1D91CF6277484DB009F2B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D91CF4277484DB009F2B69 /* LaunchScreen.storyboard */; };
 		A1D91D01277484DC009F2B69 /* ShkafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D00277484DC009F2B69 /* ShkafTests.swift */; };
 		A1D91D0B277484DC009F2B69 /* ShkafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D0A277484DC009F2B69 /* ShkafUITests.swift */; };
 		A1D91D0D277484DC009F2B69 /* ShkafUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D0C277484DC009F2B69 /* ShkafUITestsLaunchTests.swift */; };
-		A1D91D1A2776B088009F2B69 /* LookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D192776B088009F2B69 /* LookViewController.swift */; };
+		A1D91D1A2776B088009F2B69 /* LookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D192776B088009F2B69 /* LookView.swift */; };
 		A1D91D1E2777B667009F2B69 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D1D2777B667009F2B69 /* GalleryViewController.swift */; };
 		A1D91D282777FD4F009F2B69 /* StoreItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D272777FD4F009F2B69 /* StoreItemCell.swift */; };
 		A1D91D2A27791796009F2B69 /* AddImageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D91D2927791796009F2B69 /* AddImageDelegate.swift */; };
@@ -40,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A14E9B3D277D384E00973A89 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A1D91CE6277484D8009F2B69 /* Shkaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shkaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D91CE9277484D8009F2B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1D91CEB277484D8009F2B69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1D91CED277484D8009F2B69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1D91CED277484D8009F2B69 /* CreateLookBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLookBookViewController.swift; sourceTree = "<group>"; };
 		A1D91CF0277484D8009F2B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1D91CF2277484DB009F2B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D91CF5277484DB009F2B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 		A1D91D06277484DC009F2B69 /* ShkafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShkafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D91D0A277484DC009F2B69 /* ShkafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShkafUITests.swift; sourceTree = "<group>"; };
 		A1D91D0C277484DC009F2B69 /* ShkafUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShkafUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A1D91D192776B088009F2B69 /* LookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookViewController.swift; sourceTree = "<group>"; };
+		A1D91D192776B088009F2B69 /* LookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookView.swift; sourceTree = "<group>"; };
 		A1D91D1D2777B667009F2B69 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		A1D91D272777FD4F009F2B69 /* StoreItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemCell.swift; sourceTree = "<group>"; };
 		A1D91D2927791796009F2B69 /* AddImageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14E9B3C277D2F5200973A89 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1D91CED277484D8009F2B69 /* CreateLookBookViewController.swift */,
+				A1D91D192776B088009F2B69 /* LookView.swift */,
+				A1D91D1D2777B667009F2B69 /* GalleryViewController.swift */,
+				A1D91D2927791796009F2B69 /* AddImageDelegate.swift */,
+				A1D91D272777FD4F009F2B69 /* StoreItemCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A1D91CDD277484D8009F2B69 = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +121,10 @@
 		A1D91CE8277484D8009F2B69 /* Shkaf */ = {
 			isa = PBXGroup;
 			children = (
+				A14E9B3C277D2F5200973A89 /* Controllers */,
 				A1D91CE9277484D8009F2B69 /* AppDelegate.swift */,
 				A1D91CEB277484D8009F2B69 /* SceneDelegate.swift */,
-				A1D91CED277484D8009F2B69 /* ViewController.swift */,
-				A1D91D192776B088009F2B69 /* LookViewController.swift */,
-				A1D91D1D2777B667009F2B69 /* GalleryViewController.swift */,
-				A1D91D2927791796009F2B69 /* AddImageDelegate.swift */,
-				A1D91D272777FD4F009F2B69 /* StoreItemCell.swift */,
+				A14E9B3D277D384E00973A89 /* Constants.swift */,
 				A1D91CEF277484D8009F2B69 /* Main.storyboard */,
 				A1D91CF2277484DB009F2B69 /* Assets.xcassets */,
 				A1D91CF4277484DB009F2B69 /* LaunchScreen.storyboard */,
@@ -271,12 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D91D2A27791796009F2B69 /* AddImageDelegate.swift in Sources */,
-				A1D91CEE277484D8009F2B69 /* ViewController.swift in Sources */,
+				A1D91CEE277484D8009F2B69 /* CreateLookBookViewController.swift in Sources */,
 				A1D91D1E2777B667009F2B69 /* GalleryViewController.swift in Sources */,
 				A1D91CEA277484D8009F2B69 /* AppDelegate.swift in Sources */,
-				A1D91D1A2776B088009F2B69 /* LookViewController.swift in Sources */,
+				A1D91D1A2776B088009F2B69 /* LookView.swift in Sources */,
 				A1D91CEC277484D8009F2B69 /* SceneDelegate.swift in Sources */,
 				A1D91D282777FD4F009F2B69 /* StoreItemCell.swift in Sources */,
+				A14E9B3E277D384E00973A89 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

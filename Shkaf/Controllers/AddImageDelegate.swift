@@ -8,5 +8,5 @@
 import UIKit
 
 protocol AddImageDelegate: AnyObject {
-    func add(image: UIImage?)
+    func didSelect(image: UIImage?)
 }
